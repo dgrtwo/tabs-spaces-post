@@ -5,7 +5,24 @@ date: "June 15, 2017"
 output: html_document
 ---
 
+**NOTE**: This is the code (as an [R markdown](http://rmarkdown.rstudio.com/) file) behind the Stack Overflow blog post [Developers who use spaces make more money than those who use tabs](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/).** After cloning the repository, you can reproduce the results with
 
+```r
+library(knitr)
+knit("README.Rmd")
+```
+
+Unlike the blog post, the code is shown here (`echo = TRUE`) for transparency.
+
+
+```r
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, cache = TRUE,
+                      fig.cap = "", dpi = 400)
+
+library(ggplot2)
+library(scales)
+theme_set(theme_minimal())
+```
 
 
 ```r
