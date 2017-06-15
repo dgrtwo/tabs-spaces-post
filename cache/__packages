@@ -1,0 +1,16 @@
+base
+knitr
+ggplot2
+stackutils
+scales
+tidyverse
+tibble
+tidyr
+readr
+purrr
+dplyr
+bindrcpp
+stringr
+forcats
+ggrepel
+broom
